@@ -54,6 +54,22 @@
   </div>
 </nav>
 
+<div class="table-responsive">
+    <table class="table table-hover	table-borderless table-primary align-middle">
+      <thead class="table-light">
+        
+        <tr>
+          <th>Carnet</th>
+          <th>Nombres</th>
+          <th>Apellidos</th>
+          <th>Direccion</th>
+          <th>Telefono</th>
+          <th>Correo</th>
+          <th>Sangre</th>
+          <th>Nacimiento</th>
+        </tr>
+</div>
+
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
     Nuevo
   </button>
@@ -115,7 +131,7 @@
 
            <div class="btn-group">
                <div class="mb-3">
-                 <input type="submit" name="btn_agregar" id="btn_agregar" class="btn btn-primary" value="Agregar" >
+                 <input type="submit" name="btn_agregar" id="btn_agregar" class="btn btn-info" value="Agregar" >
                    </div>
 
            <div class="mb-3">
@@ -123,13 +139,24 @@
                 </div>
 
             <div class="mb-3">
-              <input type="submit" name="btn_eliminar" id="btn_eliminar" class="btn btn-primary" value="Eliminar" >
+              <input type="submit" name="btn_eliminar" id="btn_eliminar" class="btn btn-danger" value="Eliminar" >
                 </div>
         </div>
-        
-    </div>
-        
+
+        <div class="mb-3">
+              <input type="submit" name="btn_cerrar" id="btn_cerrar" class="btn btn-danger" value="cerrar" >
+                </div>   
  </div>
+
+ 
+
+
+ </vid>
+
+
+
+  
+  
 
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"

@@ -10,6 +10,7 @@
   <!-- Bootstrap CSS v5.2.0-beta1 -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="css/Posiciones.css" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -38,11 +39,18 @@
         <li><a class="dropdown-item" href="#">Gracias</a></li>
       </ul>
     </li> 
-    
+
+
+    <lu class="navbar-nav"  id ="derecha">
+      
     <li class="nav-item ">
-        <a class="nav-link active ml-auto" href="#">contactos</a>
+        <a class="nav-link active ml-auto" href="#">Iniciar</a>
       </li>
 
+      <li class="nav-item">
+        <a class="nav-link active ml-auto" href="#">cerrar</a>
+      </li>
+</lu>
      
       
 

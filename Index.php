@@ -42,7 +42,7 @@
 
 
     <lu class="navbar-nav"  id ="derecha">
-      
+
     <li class="nav-item ">
         <a class="nav-link active ml-auto" href="#">Iniciar</a>
       </li>
@@ -51,21 +51,85 @@
         <a class="nav-link active ml-auto" href="#">cerrar</a>
       </li>
 </lu>
-     
-      
-
-  
-    
-
-   
-
   </div>
 </nav>
 
-  
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+    Nuevo
+  </button>
+</div>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Datos Estudiantes</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+         <div class="mb-3">
+           <input type="text" name="txt_codigo" id="txt_codigo" class="form-control" placeholder="0" required>
+             </div>
+
+          <div class="mb-3">
+            <input type="text" name="txt_carnet" id="txt_carnet" class="form-control" placeholder="carnet" required>
+              </div>
+
+          <div class="mb-3">
+            <input type="text" name="txt_nombres" id="txt_nombres" class="form-control" placeholder="Nombres" required>
+             </div>
+
+          <div class="mb-3">
+            <input type="text" name="txt_apellidos" id="txt_apellidos" class="form-control" placeholder="Apellidos" required>
+             </div>
+
+          <div class="mb-3">
+            <input type="text" name="txt_direccion" id="txt_direccion" class="form-control" placeholder="Direccion" required>
+             </div>
+
+           <div class="mb-3">
+             <input type="text" name="txt_telefono" id="txt_telefono" class="form-control" placeholder="Telefono" required>
+               </div>
+        
+           <div class="mb-3">
+             <input type="text" name="txt_corre" id="txt_correo" class="form-control" placeholder="Correo Electronico" required>
+               </div>
+
+          <div class="mb-3">
+             <select class="form-select" name="drop_sangre" id="drop_sangre">
+               <option value=0> ---Tipo de Sangre -- </option>
 
 
-  
+
+
+          <div class="mb-3">
+           <label for="" class="lbl_fn"><b>Su fecha de Nacimiento</b></label>
+            <input type="date" name="txt_fn" id="txt_fn" class="form-control" placeholder="aaaa-mm-dd" required>
+
+        </div>
+
+           <div class="btn-group">
+               <div class="mb-3">
+                 <input type="submit" name="btn_agregar" id="btn_agregar" class="btn btn-primary" value="Agregar" >
+                   </div>
+
+           <div class="mb-3">
+              <input type="submit" name="btn_modificar" id="btn_modificar" class="btn btn-primary" value="Modificar" >
+                </div>
+
+            <div class="mb-3">
+              <input type="submit" name="btn_eliminar" id="btn_eliminar" class="btn btn-primary" value="Eliminar" >
+                </div>
+        </div>
+        
+    </div>
+        
+ </div>
 
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
